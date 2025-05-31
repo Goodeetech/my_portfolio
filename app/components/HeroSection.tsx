@@ -16,26 +16,27 @@ import HeroStar from "./layers/HeroStar";
 const HeroSection = () => {
   return (
     <div className="py-32 md:py-40 px-6 relative overflow-x-clip ">
-      <div
-        className="inset-0 -z-1 absolute opacity-5"
-        style={{
-          backgroundImage: `url(${grain.src})`,
-        }}
-      ></div>
-      <div className="size-[460px] hero-grain"></div>
-      <div className="size-[660px] hero-grain"></div>
-      <div className="size-[860px] hero-grain"></div>
-      <div className="size-[1060px] hero-grain"></div>
-      <div>
-        <HeroStar size={560} rotation={-72}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 100"
-            fill="currentColor"
-            className="w-8 h-8 text-emerald-400 opacity-20"
-          >
-            <path
-              d="
+      <div className="absolute inset-0 -z-10 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
+        <div
+          className="inset-0 -z-1 absolute opacity-5"
+          style={{
+            backgroundImage: `url(${grain.src})`,
+          }}
+        ></div>
+        <div className="size-[460px] hero-grain"></div>
+        <div className="size-[660px] hero-grain"></div>
+        <div className="size-[860px] hero-grain"></div>
+        <div className="size-[1060px] hero-grain"></div>
+        <div>
+          <HeroStar size={560} rotation={-72}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 100 100"
+              fill="currentColor"
+              className="w-8 h-8 text-emerald-400 opacity-20"
+            >
+              <path
+                d="
       M50 0 
       C52 20, 52 20, 55 40 
       C80 48, 80 48, 100 50 
@@ -47,18 +48,18 @@ const HeroSection = () => {
       C48 20, 48 20, 50 0 
       Z
     "
-            />
-          </svg>
-        </HeroStar>
-        <HeroStar size={300} rotation={100}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 100"
-            fill="currentColor"
-            className="w-6 h-6 text-emerald-400 opacity-60"
-          >
-            <path
-              d="
+              />
+            </svg>
+          </HeroStar>
+          <HeroStar size={300} rotation={100}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 100 100"
+              fill="currentColor"
+              className="w-6 h-6 text-emerald-400 opacity-60"
+            >
+              <path
+                d="
       M50 0 
       C52 20, 52 20, 55 40 
       C80 48, 80 48, 100 50 
@@ -70,18 +71,18 @@ const HeroSection = () => {
       C48 20, 48 20, 50 0 
       Z
     "
-            />
-          </svg>
-        </HeroStar>
-        <HeroStar size={740} rotation={-200}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 100"
-            fill="currentColor"
-            className="w-10 h-10 text-emerald-400 opacity-80"
-          >
-            <path
-              d="
+              />
+            </svg>
+          </HeroStar>
+          <HeroStar size={740} rotation={-200}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 100 100"
+              fill="currentColor"
+              className="w-10 h-10 text-emerald-400 opacity-80"
+            >
+              <path
+                d="
       M50 0 
       C52 20, 52 20, 55 40 
       C80 48, 80 48, 100 50 
@@ -93,18 +94,18 @@ const HeroSection = () => {
       C48 20, 48 20, 50 0 
       Z
     "
-            />
-          </svg>
-        </HeroStar>
-        <HeroStar size={560} rotation={220}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 100"
-            fill="currentColor"
-            className="w-12 h-12 text-emerald-400 opacity-40"
-          >
-            <path
-              d="
+              />
+            </svg>
+          </HeroStar>
+          <HeroStar size={560} rotation={220}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 100 100"
+              fill="currentColor"
+              className="w-12 h-12 text-emerald-400 opacity-40"
+            >
+              <path
+                d="
       M50 0 
       C52 20, 52 20, 55 40 
       C80 48, 80 48, 100 50 
@@ -116,18 +117,18 @@ const HeroSection = () => {
       C48 20, 48 20, 50 0 
       Z
     "
-            />
-          </svg>
-        </HeroStar>
-        <HeroStar size={660} rotation={-72}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 100"
-            fill="currentColor"
-            className="w-12 h-12 text-emerald-400"
-          >
-            <path
-              d="
+              />
+            </svg>
+          </HeroStar>
+          <HeroStar size={660} rotation={-72}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 100 100"
+              fill="currentColor"
+              className="w-12 h-12 text-emerald-400"
+            >
+              <path
+                d="
       M50 0 
       C52 20, 52 20, 55 40 
       C80 48, 80 48, 100 50 
@@ -139,18 +140,18 @@ const HeroSection = () => {
       C48 20, 48 20, 50 0 
       Z
     "
-            />
-          </svg>
-        </HeroStar>
-        <HeroStar size={800} rotation={-45}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 100"
-            fill="currentColor"
-            className="w-4 h-4 text-emerald-400"
-          >
-            <path
-              d="
+              />
+            </svg>
+          </HeroStar>
+          <HeroStar size={700} rotation={-45}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 100 100"
+              fill="currentColor"
+              className="w-4 h-4 text-emerald-400"
+            >
+              <path
+                d="
       M50 0 
       C52 20, 52 20, 55 40 
       C80 48, 80 48, 100 50 
@@ -162,18 +163,18 @@ const HeroSection = () => {
       C48 20, 48 20, 50 0 
       Z
     "
-            />
-          </svg>
-        </HeroStar>
-        <HeroStar size={800} rotation={-290}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 100"
-            fill="currentColor"
-            className="w-5 h-5 text-emerald-400"
-          >
-            <path
-              d="
+              />
+            </svg>
+          </HeroStar>
+          <HeroStar size={600} rotation={-290}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 100 100"
+              fill="currentColor"
+              className="w-5 h-5 text-emerald-400"
+            >
+              <path
+                d="
       M50 0 
       C52 20, 52 20, 55 40 
       C80 48, 80 48, 100 50 
@@ -185,18 +186,18 @@ const HeroSection = () => {
       C48 20, 48 20, 50 0 
       Z
     "
-            />
-          </svg>
-        </HeroStar>
-        <HeroStar size={700} rotation={820}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 100"
-            fill="currentColor"
-            className="w-7 h-7 text-emerald-400"
-          >
-            <path
-              d="
+              />
+            </svg>
+          </HeroStar>
+          <HeroStar size={700} rotation={820}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 100 100"
+              fill="currentColor"
+              className="w-7 h-7 text-emerald-400"
+            >
+              <path
+                d="
       M50 0 
       C52 20, 52 20, 55 40 
       C80 48, 80 48, 100 50 
@@ -208,18 +209,18 @@ const HeroSection = () => {
       C48 20, 48 20, 50 0 
       Z
     "
-            />
-          </svg>
-        </HeroStar>
-        <HeroStar size={560} rotation={-20}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 100"
-            fill="currentColor"
-            className="w-4 h-4 text-emerald-400"
-          >
-            <path
-              d="
+              />
+            </svg>
+          </HeroStar>
+          <HeroStar size={560} rotation={-20}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 100 100"
+              fill="currentColor"
+              className="w-4 h-4 text-emerald-400"
+            >
+              <path
+                d="
       M50 0 
       C52 20, 52 20, 55 40 
       C80 48, 80 48, 100 50 
@@ -231,9 +232,10 @@ const HeroSection = () => {
       C48 20, 48 20, 50 0 
       Z
     "
-            />
-          </svg>
-        </HeroStar>
+              />
+            </svg>
+          </HeroStar>
+        </div>
       </div>
 
       <div className="flex flex-col items-center justify-center">
