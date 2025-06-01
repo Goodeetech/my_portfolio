@@ -41,12 +41,12 @@ const testimonials = [
 ];
 const Testimonial = () => {
   return (
-    <div className="py-8 mx-6">
+    <div className="my-16 mx-6">
       <div className="flex flex-col gap-4 items-center justify-center">
-        <h3 className="uppercase text-center bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text text-xl">
+        <h3 className="uppercase text-center bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text text-xl tracking-widest">
           Happy Client
         </h3>
-        <h1 className="md:text-4xl lg:text-5xl text-2xl font-semibold text-">
+        <h1 className="md:text-3xl lg:text-4xl text-2xl font-semibold text-">
           What Clients Say about Me
         </h1>
         <h4 className="md:text-lg text-md text-gray-500 text-center md:max-w-lg max-w-md">
