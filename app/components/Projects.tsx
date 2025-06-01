@@ -70,7 +70,7 @@ export const Project = () => {
             {Projects.map((project, index) => (
               <div
                 key={index}
-                className="px-10 lg:px-14 py-6 bg-gray-800 outline outline-gray-700 rounded-lg flex gap-4"
+                className="px-10 lg:px-14 py-6 bg-gray-800 outline outline-gray-700 rounded-lg flex gap-4 flex-col md:flex-row"
               >
                 <div>
                   <div className="flex flex-col gap-4">
