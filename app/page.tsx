@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import { Project } from "./components/Projects";
+import Tape from "./components/layers/Tape";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <Project />
+      <Tape />
     </div>
   );
 }
