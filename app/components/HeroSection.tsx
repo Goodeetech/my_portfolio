@@ -15,7 +15,7 @@ import HeroStar from "./layers/HeroStar";
 
 const HeroSection = () => {
   return (
-    <div className="py-32 md:py-40 px-6 relative overflow-x-clip ">
+    <div className="py-32 md:py-36 px-6 relative overflow-x-clip ">
       <div className="absolute inset-0 -z-10 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
         <div
           className="inset-0 -z-1 absolute opacity-5"
