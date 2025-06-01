@@ -70,7 +70,7 @@ export const Project = () => {
             {Projects.map((project, index) => (
               <div
                 key={index}
-                className="pl-10 pr-10 lg:pr-0  lg:pl-14  py-2   pt-6 bg-gray-800 outline outline-gray-700 rounded-lg grid grid-cols-1 md:grid-cols-2  gap-4  overflow-hidden  "
+                className="pl-10 pr-10 lg:pr-0  lg:pl-14  py-2   pt-6 bg-gray-800 outline outline-gray-700 rounded-lg grid grid-cols-1 md:grid-cols-2  gap-4 lg:gap-20  overflow-hidden  "
               >
                 <div>
                   <div className="flex flex-col gap-4">
@@ -91,7 +91,7 @@ export const Project = () => {
                       </div>
                     ))}
                   </div>
-                  <button className="bg-white text-gray-900 px-4 py-2 mb-2 md:w-fit mt-4 rounded-lg hover:bg-gray-200 transition-colors text-md font-semibold  items-center gap-2 cursor-pointer w-full inline-flex justify-center  ">
+                  <button className="bg-white text-gray-900 px-4 py-2 mb-2 md:w-fit mt-4 rounded-lg hover:bg-gray-200 transition-colors text-sm font-semibold  items-center gap-2 cursor-pointer w-full inline-flex justify-center  ">
                     <h3> Visit Live Site</h3>
                     <ArrowUpRight />
                   </button>
