@@ -1,6 +1,7 @@
 import React from "react";
 import AboutCard from "./AboutCard";
 import Image from "next/image";
+import memojiAvatar1 from "../../assets/images/memoji-avatar-1.png";
 
 const About = () => {
   return (
@@ -34,16 +35,32 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className=" grid lg:grid-cols-4 gap-4 mt-6 grid-cols-1  max-w-4xl mx-auto">
-        <div className="col-span-2">
-          <AboutCard
-            title="Beyond the Code"
-            subtitle="Explore my interest and hobbies beyond the digital realm"
-            image="skills"
-          />
-        </div>
-        <div className="col-span-2 bg-gray-800 rounded-lg outline-2 lg:h-[300px] outline-gray-600">
-          <Image src={}
+      <div className="mx-8">
+        <div className=" grid md:grid-cols-5 gap-4 mt-6 grid-cols-1  max-w-4xl mx-auto">
+          <div className="col-span-3">
+            <AboutCard
+              title="Beyond the Code"
+              subtitle="Explore my interest and hobbies beyond the digital realm"
+              image="skills"
+            />
+          </div>
+          <div className="col-span-2 bg-gray-800 rounded-lg  outline-2  h-[300px] md:h-full  outline-gray-600 p-0 lg:h-[300px] relative overflow-hidden  ">
+            <Image
+              src="/map.png"
+              alt="map"
+              fill
+              className="object-cover opacity-75"
+            />
+            <div
+              className="absolute bg-gradient-to-r from-emerald-200 to-sky-400 rounded-full "
+              style={{
+                top: "40%",
+                left: "70%",
+              }}
+            >
+              <Image src={memojiAvatar1} alt="memoji" height={60} width={60} />
+            </div>
+          </div>
         </div>
       </div>
     </div>

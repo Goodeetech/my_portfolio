@@ -59,7 +59,7 @@ const AboutCard = ({
         </div>
       </div>
       <div className="overflow-hidden">
-        <h4 className="text-gray-400 text-sm">{subtitle}</h4>
+        <h4 className="text-gray-400 text-sm mt-2 max-w-md">{subtitle}</h4>
         {image === "hello" ? (
           <div className="flex justify-center items-center mt-2 -mb-14">
             <Image
