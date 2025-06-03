@@ -36,7 +36,7 @@ const ToolsTip = () => {
           <div key={index} className="px-3   py-1  ">
             <div
               key={index}
-              className="inline-flex items-center justify-center gap-1 py-2 px-4 border-2 border-gray-500 rounded-lg whitespace-nowrap"
+              className="inline-flex  items-center justify-center gap-1 py-2 px-4 border-2 border-gray-500 rounded-lg whitespace-nowrap"
             >
               <Image
                 src={arr.image}

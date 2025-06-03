@@ -15,18 +15,20 @@ const AboutCard = ({
     {
       name: "Painting",
       icon: "🎨",
+      top: "20%",
+      left: "50%",
     },
-    { name: "Photography", icon: "📷" },
-    { name: "Gaming", icon: "🎯" },
-    { name: "Hiking", icon: "🚶‍♂️‍➡️" },
-    { name: "Music", icon: "🎵" },
-    { name: "Fitness", icon: "🤸" },
+    { name: "Photography", icon: "📷", top: "5%", left: "14%" },
+    { name: "Gaming", icon: "🎯", top: "33%", left: "37%" },
+    { name: "Hiking", icon: "🚶‍♂️‍➡️", top: "58%", left: "35%" },
+    { name: "Music", icon: "🎵", top: "50%", left: "10%" },
+    { name: "Fitness", icon: "🤸", top: "80%", left: "10%" },
   ];
   return (
     <div
       className={`pt-4 px-4 ${
         image == "hello" ? "pb-0" : "pb-4"
-      } bg-gray-800 rounded-lg outline-2 outline-gray-600`}
+      } bg-gray-800 rounded-lg outline-2 lg:h-[300px] outline-gray-600`}
     >
       <div className="flex items-center gap-2">
         <div>
@@ -75,9 +77,16 @@ const AboutCard = ({
                 <ToolsTip />
               </div>
             ) : (
-              <div>
+              <div className="flex gap-4 flex-wrap relative flex-1 h-50 w-full ">
                 {array.map((arr, index) => (
-                  <div key={index} className="flex gap-2">
+                  <div
+                    key={index}
+                    className="inline-flex gap-2 py-1.5 px-4 bg-gradient-to-r from-emerald-200 to-sky-400 rounded-full items-center font-semibold text-sm text-gray-950 absolute"
+                    style={{
+                      left: arr.left,
+                      top: arr.top,
+                    }}
+                  >
                     <h2>{arr.name}</h2>
                     <h3>{arr.icon}</h3>
                   </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import AboutCard from "./AboutCard";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -31,14 +32,18 @@ const About = () => {
               image="array"
             />
           </div>
-          <div>
-            <AboutCard
-              title="Beyond the Code"
-              subtitle="Explore my interest and hobbies beyond the digital realm"
-              image="skills"
-            />
-          </div>
-          <div className="p-4 bg-gray-800"></div>
+        </div>
+      </div>
+      <div className=" grid lg:grid-cols-4 gap-4 mt-6 grid-cols-1  max-w-4xl mx-auto">
+        <div className="col-span-2">
+          <AboutCard
+            title="Beyond the Code"
+            subtitle="Explore my interest and hobbies beyond the digital realm"
+            image="skills"
+          />
+        </div>
+        <div className="col-span-2 bg-gray-800 rounded-lg outline-2 lg:h-[300px] outline-gray-600">
+          <Image src={}
         </div>
       </div>
     </div>
