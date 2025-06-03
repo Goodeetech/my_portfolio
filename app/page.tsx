@@ -5,6 +5,7 @@ import { Project } from "./components/Projects";
 import Tape from "./components/layers/Tape";
 import Testimonial from "./components/layers/Testimonial";
 import About from "./components/layers/About";
+import PreFooter from "./components/layers/PreFooter";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Tape />
       <Testimonial />
       <About />
+      <PreFooter />
     </div>
   );
 }
