@@ -32,7 +32,7 @@ const Footer = () => {
               className="group relative flex items-center gap-1"
               key={index}
             >
-              <h2 className="relative after:absolute after:left-0 after:-bottom-0.5 after:h-[2px] after:w-0 after:bg-sky-400 after:transition-all after:duration-300 group-hover:after:w-full">
+              <h2 className="relative after:absolute after:left-0 after:-bottom-0.5 after:h-[2px] after:w-0 after:bg-gradient-to-r after:from-emerald-300 after:to-sky-400 after:transition-all after:duration-300 group-hover:after:w-full">
                 {item.name}
               </h2>
               <ArrowUpRight size={14} />

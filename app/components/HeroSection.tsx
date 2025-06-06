@@ -247,7 +247,9 @@ const HeroSection = () => {
           className=""
         />
         <div className="flex border border-white/20 p-2 rounded-lg items-center bg-black gap-4 justify-center">
-          <div className="bg-green-500 size-2.5 rounded-full animate-pulse"></div>
+          <div className="bg-green-500 size-2.5 rounded-full relative">
+            <div className="animate-ping inset-0 bg-green-500 absolute rounded-full "></div>
+          </div>
           <div>
             <h3 className="text-sm">Available for new projects</h3>
           </div>
