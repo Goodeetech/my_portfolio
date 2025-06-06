@@ -28,7 +28,7 @@ const HeroSection = () => {
         <div className="size-[860px] hero-grain"></div>
         <div className="size-[1060px] hero-grain"></div>
         <div>
-          <HeroStar size={560} rotation={-72}>
+          <HeroStar size={560} rotation={-72} animationDuration={30}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 100 100"
@@ -51,7 +51,7 @@ const HeroSection = () => {
               />
             </svg>
           </HeroStar>
-          <HeroStar size={300} rotation={100}>
+          <HeroStar size={300} rotation={100} animationDuration={28}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 100 100"
@@ -74,7 +74,7 @@ const HeroSection = () => {
               />
             </svg>
           </HeroStar>
-          <HeroStar size={740} rotation={-200}>
+          <HeroStar size={740} rotation={-200} animationDuration={35}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 100 100"
@@ -97,7 +97,7 @@ const HeroSection = () => {
               />
             </svg>
           </HeroStar>
-          <HeroStar size={560} rotation={220}>
+          <HeroStar size={560} rotation={220} animationDuration={29}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 100 100"
@@ -120,7 +120,7 @@ const HeroSection = () => {
               />
             </svg>
           </HeroStar>
-          <HeroStar size={660} rotation={-72}>
+          <HeroStar size={660} rotation={-72} animationDuration={39}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 100 100"
@@ -143,7 +143,7 @@ const HeroSection = () => {
               />
             </svg>
           </HeroStar>
-          <HeroStar size={700} rotation={-45}>
+          <HeroStar size={700} rotation={-45} animationDuration={40}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 100 100"
@@ -166,7 +166,7 @@ const HeroSection = () => {
               />
             </svg>
           </HeroStar>
-          <HeroStar size={600} rotation={-290}>
+          <HeroStar size={600} rotation={-290} animationDuration={40}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 100 100"
@@ -189,7 +189,7 @@ const HeroSection = () => {
               />
             </svg>
           </HeroStar>
-          <HeroStar size={700} rotation={820}>
+          <HeroStar size={700} rotation={820} animationDuration={34}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 100 100"
@@ -212,7 +212,7 @@ const HeroSection = () => {
               />
             </svg>
           </HeroStar>
-          <HeroStar size={560} rotation={-20}>
+          <HeroStar size={560} rotation={-20} animationDuration={28}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 100 100"
