@@ -4,7 +4,7 @@ const HeroStar = ({
   children,
   size,
   rotation,
-  animationDuration,
+  animationDuration = 8,
 }: {
   children: ReactNode;
   size: number;
@@ -16,7 +16,7 @@ const HeroStar = ({
       className={`absolute -translate-x-1/2 left-1/2 -translate-y-1/2 top-1/2  `}
     >
       <div
-        className="animate-spin "
+        className="spin-smooth "
         style={{
           animationDuration: `${animationDuration}s`,
         }}
@@ -30,7 +30,7 @@ const HeroStar = ({
           }}
         >
           <div
-            className="inline-flex animate-spin [animation-duration:8s]"
+            className="inline-flex spin-smooth"
             style={{
               transform: `rotate(${rotation * -1}deg) `,
             }}
